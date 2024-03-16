@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   async function helper() {
-    const response = await axios.get("http://localhost:10000/api");
+    const response = await axios.get("https://demo-be-2nra.onrender.com/api");
     // console.log(response)
     const data = response.data;
     console.log(data)
